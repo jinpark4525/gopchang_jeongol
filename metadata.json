@@ -1,0 +1,6 @@
+{
+  "name": "한식영양도감 — 곱창전골이 몸에 좋은 이유",
+  "description": "곱창전골의 단백질, 콜라겐, 비타민 B12, 미네랄 효능과 한식 채소 배합의 영양 시너지를 탐구하는 식문화 영양 도감",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

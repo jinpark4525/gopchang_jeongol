@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif-kr: "Noto Serif KR", Georgia, serif;
+    --font-sans-kr: "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono-num: "JetBrains Mono", monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #fbf9f5;
+    color: #1c1917;
+    font-family: var(--font-sans-kr);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.font-editorial {
+  font-family: var(--font-serif-kr);
+}
+
+.font-data {
+  font-family: var(--font-mono-num);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
